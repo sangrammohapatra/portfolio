@@ -1,0 +1,72 @@
+.container {
+  /* border: 2px solid red; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin: auto;
+  color: #ffffff;
+  background: #dfdfde00;
+  width: 55%;
+}
+.container h2 {
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 3rem;
+  background-image: linear-gradient(90deg, #ffffff00, #68eb3042 60%, #ffffff00);
+}
+.contactContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 90%;
+}
+.contactContainer > * + * {
+  margin: 10px;
+}
+#mailId {
+  color: white;
+  text-decoration: none;
+}
+.contact,
+.mail {
+  /* border: 2px solid green; */
+  justify-content: space-between;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  padding-left: 30px;
+}
+
+.mail > * + * {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+}
+.contact > * + * {
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: 5px;
+}
+@media screen and (max-width: 880px) {
+  .container {
+    width: 60%;
+  }
+}
+@media screen and (max-width: 780px) {
+  .container {
+    width: 70%;
+  }
+}
+
+@media screen and (max-width: 720px) {
+  .container {
+    width: 85%;
+  }
+}
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100%;
+  }
+}
