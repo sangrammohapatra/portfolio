@@ -44,6 +44,15 @@
 .project-item.activeProject:nth-child(3) {
   background: linear-gradient(270deg, #ffffff00, var(--cyan) 70%);
 }
+.project-item.activeProject:nth-child(4) {
+  background: linear-gradient(270deg, #ffffff00, var(--green) 70%);
+}
+.project-item.activeProject:nth-child(5) {
+  background: linear-gradient(270deg, #ffffff00, var(--pink) 70%);
+}
+.project-item.activeProject:nth-child(6) {
+  background: linear-gradient(270deg, #ffffff00, var(--yellow) 70%);
+}
 
 .project-sub-container {
   width: 60%;

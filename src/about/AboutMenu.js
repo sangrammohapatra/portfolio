@@ -21,7 +21,7 @@ export default class AboutMenu extends Component {
   handleMenuItemClick = (menuItem) => {
     this.setState({
       activeMenuItem: menuItem,
-      activeSubheading: 0,
+      activeSubheading: 1,
     });
   };
 

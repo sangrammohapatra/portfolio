@@ -6,7 +6,7 @@
     "links": [
       {
         "type": "github",
-        "link": "https://github.com/Somaditya-Bindhani"
+        "link": "https://github.com/sangrammohapatra"
       },
       {
         "type": "linkedIn",
@@ -33,30 +33,30 @@
   },
   "education": [
     {
-      "instituteName": "Odisha University of technology and research",
-      "location": "Bhubaneswar,Odisha,India",
-      "degree": "Bachelor of Technology in Computer Science and Engineering",
+      "instituteName": "Odisha University of Technology and Research",
+      "location": "Bhubaneswar, Odisha, India",
+      "degree": "Bachelor of Technology in Information Technology",
       "startDate": "2019-06-01",
       "endDate": "2023-06-01",
       "website": "https://www.cet.edu.in/",
-      "grade": "9.62/10 CGPA"
+      "grade": "9.02/10 CGPA"
     },
     {
-      "instituteName": "Buxi Jagabandhu English Medium School",
+      "instituteName": "ODM Public School",
       "location": "Bhubaneswar,Odisha,India",
-      "degree": "Central Board of Secondary Education-Grade XII",
+      "degree": "Central Board of Secondary Education - Grade XII",
       "startDate": "2017-06-01",
       "endDate": "2019-06-01",
-      "website": "http://www.bjemschool.org/",
-      "grade": "94.2 %"
+      "website": "http://www.odmps.org/",
+      "grade": "86.2 %"
     },
     {
-      "instituteName": "Buxi Jagabandhu English Medium School",
-      "location": "Bhubaneswar,Odisha,India",
+      "instituteName": "Carmel English Medium School",
+      "location": "Khordha,Odisha,India",
       "degree": "Central Board of Secondary Education-Grade X",
       "startDate": "2016-06-01",
       "endDate": "2017-06-01",
-      "website": "http://www.bjemschool.org/",
+      "website": "http://www.carmel-khordha.org/",
       "grade": "10/10 CGPA"
     }
   ],
@@ -171,30 +171,65 @@
         "github": "https://github.com/Somaditya-Bindhani/tsf-banking-may21",
         "images": "project-3.png"
       }
+    },
+    {
+      "title": "Bookshare",
+      "content": [
+        "The project focused on lending and borrowing books with internet as a medium.",
+        "Engaged mostly in the integration of frontend and backend, database handling, firebase authentication, and deployment.",
+        "Managed a team of 4 regarding task distribution and continuous integration and delivery."
+      ],
+      "links": {
+        "github": "https://github.com/MD-ARBAB-SAHID/HackNPitch_hackYou_BOOKSHARE",
+        "website": "https://book-share-9e402.web.app/",
+        "images": "project-2.png"
+      }
     }
   ],
   "skills": [
-    "Node JS",
-    "HTML",
-    "CSS",
-    "SQL",
-    "AWS",
-    "Serverless",
-    "Jenkins",
-    "Circle CI",
-    "MongoDB",
-    "DynamoDB",
-    "AWS Gamelift",
-    "CI/CD",
-    "Firebase",
-    "Javascript",
-    "React JS",
-    "Konva JS",
-    "Git",
-    "GitHub",
-    "C",
-    "Solidity",
-    "C++",
-    "Data Structures And Algorithms"
+    {
+      "title": "HTML",
+      "level": 6
+    },
+    {
+      "title": "CSS",
+      "level": 6
+    },
+    {
+      "title": "Javascript",
+      "level": 5
+    },
+    {
+      "title": "React JS",
+      "level": 5
+    },
+    {
+      "title": "Git",
+      "level": 4
+    },
+    {
+      "title": "GitHub",
+      "level": 4
+    },
+    {
+      "title": "C",
+      "level": 5
+    },
+    {
+      "title": "C++",
+      "level": 5
+    },
+    {
+      "title": "DSA",
+      "level": 3
+    },
+    {
+      "title": "SQL",
+      "level": 4
+    },
+    {
+      "title": "Figma",
+      "level": 5
+    }
   ]
 }

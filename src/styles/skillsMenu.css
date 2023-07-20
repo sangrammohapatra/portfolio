@@ -9,7 +9,7 @@
 }
 
 .skill-item {
-  height: 3.7rem;
+  height: 3.5rem;
   width: 50%;
   display: flex;
   position: relative;
@@ -35,22 +35,13 @@
 .skill-item.activeSkill:nth-child(1) {
   background: linear-gradient(270deg, #ffffff00, var(--purple) 70%);
 }
-.skill-item.activeSkill:nth-child(2) {
-  background: linear-gradient(270deg, #ffffff00, var(--blue) 70%);
-}
 
 .skill-icon {
   width: 5rem;
   height: 5rem;
   position: absolute;
-  top: 1.8rem;
+  top: -0.7rem;
   left: 8rem;
-}
-
-.skill-sub-container-1 h3,
-.skill-sub-container-2 h3 {
-  position: relative;
-  margin: 0;
 }
 
 .menu {
@@ -62,12 +53,22 @@
   transform: translateY(-25%);
   right: 15vw;
 }
+.skill-sub-container {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+}
 
-.skill-sub-container-1,
-.skill-sub-container-2 {
+.skill-sub-container-1 {
   display: flex;
   justify-content: right;
   gap: 2rem;
+}
+
+.skill-sub-container-1 h3 {
+  position: relative;
+  margin: 0;
 }
 
 .level-container {
@@ -82,17 +83,10 @@
 }
 
 .filled {
-  background: linear-gradient(180deg, #236473, #25afce, #7ce7ff);
+  background: linear-gradient(180deg, #3192a7, #25afce, #8ceaff);
 }
 .unfilled {
-  background: linear-gradient(180deg, #1c8298, #074654, #074654);
-}
-
-.skill-sub-container {
-  margin-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  gap: 0.4rem;
+  background: linear-gradient(180deg, #1c8298, #074f5f, #014e4e);
 }
 
 @media (max-width: 1100px) {
@@ -110,10 +104,7 @@
   .level-container {
     gap: 0.15rem;
   }
-  .skill-sub-container-1,
-  .skill-sub-container-2 {
-    gap: 0.5rem;
-  }
+
   .skill-sub-container {
     margin-top: 2rem;
     gap: 0.2rem;

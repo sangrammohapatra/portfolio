@@ -1,6 +1,5 @@
 import React, { Component } from "react";
 import classNames from "classnames";
-// import projects from "./projectsData";
 import "../styles/projectsMenu.css";
 import data from "../assets/details.json";
 import projectImg from "../assets/project-1.png";
@@ -50,8 +49,9 @@ export default class ProjectsMenu extends Component {
 
   render() {
     const { activeProject } = this.state;
-    const projectItems = ["PROJECT ONE", "PROJECT TWO", "PROJECT THREE"];
-
+    const projectItems = projects.map(
+      (project, index) => `PROJECT ${index + 1}`
+    );
     return (
       <div className="project-menu">
         <div className="project-items-container">
